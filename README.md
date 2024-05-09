@@ -1,73 +1,110 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p>
+## Readme: "Me" App - All-in-One Personal Assistant
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+**Description:**
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+The "Me" app is an all-in-one personal assistant app designed to help you manage various aspects of your daily life. This app combines several essential functions such as:
 
-## Description
+* **Financial Tracking:** Track income and expenses, create budgets, set bill reminders, and view your financial trends.
+* **Music Player:** Listen to your favorite music from various streaming services like Spotify, YouTube Music, and Apple Music.
+* **News Updates:** Access the latest news from a variety of reliable sources and personalized to your interests.
+* **Reminders and To-Do List:** Create task lists, set deadlines, add reminders, and share lists with others.
+* **Notes:** Create text, image, audio, and video notes, and add tags and labels for easy organization.
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+**Technologies:**
 
-## Installation
+The "Me" app is built using modern and cutting-edge technologies, including:
+
+* **React Native Expo:** A cross-platform mobile app development platform that allows you to build Android and iOS apps with one codebase.
+* **NestJS:** A powerful and scalable Node.js framework for building server-side web and mobile applications.
+* **Docker:** A containerization platform that allows you to package and run your applications in an isolated and portable environment.
+* **Prisma-MongoDB:** An ORM (Object-Relational Mapper) that helps you connect to MongoDB databases easily and efficiently.
+
+**Key Features:**
+
+* **Financial Tracking:**
+    * Track income and expenses with ease.
+    * Create budgets and track your progress.
+    * Set reminders for bills and payments.
+    * View your financial trends in charts and diagrams.
+* **Music Player:**
+    * Listen to music from various streaming services like Spotify, YouTube Music, and Apple Music.
+    * Create your favorite playlists.
+    * Discover new music based on genre, artist, and mood.
+    * Listen to music offline.
+* **News Updates:**
+    * Access the latest news from a variety of trusted sources.
+    * Choose news topics and sources that interest you.
+    * Read news in various formats like text, images, and videos.
+    * Save favorite news articles to read later.
+* **Reminders and To-Do List:**
+    * Create task lists with deadlines and priorities.
+    * Set reminders and notifications for important tasks.
+    * Share task lists with others.
+    * Track your progress in completing tasks.
+* **Notes:**
+    * Create text, image, audio, and video notes.
+    * Add tags and labels for easy organization.
+    * Store notes securely and encrypted.
+    * Share notes with others.
+
+**Installation and Usage:**
+
+**1. Prerequisites:**
+
+* Ensure you have Node.js and npm installed on your computer.
+* Install Docker Desktop on your computer.
+
+**2. Clone the Repository:**
 
 ```bash
-$ npm install
+git clone https://github.com/devnolife/me.git
+cd me
 ```
 
-## Running the app
+**3. Install Dependencies:**
 
 ```bash
-# development
-$ npm run start
-
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
+npm install
 ```
 
-## Test
+**4. Build the Application:**
 
 ```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
+npm run build
 ```
 
-## Support
+**5. Run the Server:**
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+```bash
+npm run start
+```
 
-## Stay in touch
+**6. Run the Mobile App:**
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+Open the `mobile` directory and run the following command:
 
-## License
+```
+npx expo start
+```
 
-Nest is [MIT licensed](LICENSE).
+**7. Access the App:**
+
+The "Me" app will open in your browser. You can access it from your mobile device by scanning the QR code displayed in the browser.
+
+**Notes:**
+
+* Make sure to replace `devnolife` with your GitHub username in step 2.
+* You will need to create a MongoDB account and set the `MONGODB_URI` environment variable before running the server.
+* You can customize this application to suit your needs and preferences.
+
+**Documentation:**
+
+Comprehensive documentation for the "Me" app can be found at [https://www.prisma.io/docs/orm/overview/databases/mongodb](https://www.prisma.io/docs/orm/overview/databases/mongodb).
+
+**Contributing:**
+
+We welcome contributions from the developer community to help improve the "Me" app. You can find information on how to contribute at [https://www.prisma.io/docs/orm/overview/databases/mongodb](https://www.prisma.io/docs/orm/overview/databases/mongodb).
+
+**Conclusion:**
+
+The "Me" app is a powerful and versatile all-in-one personal assistant app that can help you manage various aspects of your daily life. With its comprehensive and easy-to-use features, this app can become an invaluable tool for anyone seeking to improve their productivity, organization, and overall well-being.
